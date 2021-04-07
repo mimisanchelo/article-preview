@@ -89,13 +89,14 @@ button {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
   z-index: 100;
 }
-button:active {
-  transform: scale(0.97);
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
-}
+
 .btn-share.active {
   background-color: hsl(210, 46%, 95%);
   color: hsl(217, 19%, 35%);
+}
+button:active {
+  transform: scale(0.97);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* SHARE MENU  */
